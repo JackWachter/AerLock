@@ -1,0 +1,16 @@
+[Unit]
+Description=AerLock Daemon Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/AerLock
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=aerlock
+User=root
+
+[Install]
+WantedBy=multi-user.target
