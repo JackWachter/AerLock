@@ -15,6 +15,16 @@ android {
         versionName = "1.0"
     }
 
+    packaging {
+        resources {
+            excludes.add("META-INF/INDEX.LIST")
+            excludes.add("META-INF/*.SF")
+            excludes.add("META-INF/*.DSA")
+            excludes.add("META-INF/*.RSA")
+            excludes.add("META-INF/io.netty.versions.properties")  // Exclude the Netty version properties file
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -52,4 +62,8 @@ dependencies {
     implementation("androidx.compose.material:material:1.5.1")
     implementation("androidx.compose.ui:ui-tooling-preview:1.5.1")
     implementation("androidx.compose.material3:material3:1.1.0")
+    implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")
+    implementation("org.eclipse.paho:org.eclipse.paho.android.service:1.1.1")
+    implementation("androidx.localbroadcastmanager:localbroadcastmanager:1.1.0")
+    implementation("com.hivemq:hivemq-mqtt-client:1.2.2")
 }
