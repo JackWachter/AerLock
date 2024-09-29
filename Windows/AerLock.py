@@ -11,6 +11,7 @@ import argparse
 import paho.mqtt.client as mqtt
 
 # Configuration
+# STORE THE FOLLOWING IN ENVIRONMENT VARIABLES NOT IN THE CODE (THIS IS FOR DEMO ONLY)
 MQTT_HOST = "4938f87b6b6745b097662d232690deb4.s1.eu.hivemq.cloud" # Placeholder MQTT broker
 MQTT_PORT = 8883
 CLIENTID = "WindowsClient" # Placeholder client ID
