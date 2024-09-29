@@ -5,6 +5,7 @@
 #include <syslog.h>
 #include <MQTTClient.h>
 
+// STORE THE FOLLOWING IN ENVIRONMENT VARIABLES NOT IN THE CODE (THIS IS FOR DEMO ONLY)
 #define MQTT_HOST "ssl://4938f87b6b6745b097662d232690deb4.s1.eu.hivemq.cloud:8883" // Placeholder MQTT broker
 #define CLIENTID "LinuxClient" // Placeholder client ID
 #define MQTT_TOPIC "HackGT" // Placeholder topic
