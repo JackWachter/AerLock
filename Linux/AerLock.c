@@ -5,11 +5,11 @@
 #include <syslog.h>
 #include <MQTTClient.h>
 
-#define MQTT_HOST "ssl://4938f87b6b6745b097662d232690deb4.s1.eu.hivemq.cloud:8883"
-#define CLIENTID "LinuxClient"
-#define MQTT_TOPIC "HackGT"
-#define MQTT_USERNAME "linux"
-#define MQTT_PASSWORD "Password1"
+#define MQTT_HOST "ssl://4938f87b6b6745b097662d232690deb4.s1.eu.hivemq.cloud:8883" // Placeholder MQTT broker
+#define CLIENTID "LinuxClient" // Placeholder client ID
+#define MQTT_TOPIC "HackGT" // Placeholder topic
+#define MQTT_USERNAME "linux" // Placeholder username
+#define MQTT_PASSWORD "Password1" // Placeholder password
 #define QOS 0
 #define TIMEOUT 10000L
 

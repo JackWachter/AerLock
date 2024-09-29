@@ -11,12 +11,12 @@ import argparse
 import paho.mqtt.client as mqtt
 
 # Configuration
-MQTT_HOST = "4938f87b6b6745b097662d232690deb4.s1.eu.hivemq.cloud"  # Removed 'ssl://'
+MQTT_HOST = "4938f87b6b6745b097662d232690deb4.s1.eu.hivemq.cloud" # Placeholder MQTT broker
 MQTT_PORT = 8883
-CLIENTID = "WindowsClient"
-MQTT_TOPIC = "HackGT"
-MQTT_USERNAME = "linux"
-MQTT_PASSWORD = "Password1"
+CLIENTID = "WindowsClient" # Placeholder client ID
+MQTT_TOPIC = "HackGT" # Placeholder topic
+MQTT_USERNAME = "windows" # Placeholder username
+MQTT_PASSWORD = "Password1" # Placaholder password
 QOS = 0
 
 # Setup Logging
@@ -168,7 +168,7 @@ def setup_mqtt_client():
     client = mqtt.Client(client_id=CLIENTID, protocol=mqtt.MQTTv5)
 
     # Configure TLS
-    client.tls_set()  # This uses default CA certificates
+    client.tls_set()
 
     # Set username and password
     client.username_pw_set(MQTT_USERNAME, MQTT_PASSWORD)
