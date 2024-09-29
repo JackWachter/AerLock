@@ -45,7 +45,7 @@ The unlock command restores connectivity while ensuring the same level of securi
 For installation instructions, please visit our [download page](https://www.aerlock.co/download).
 
 ## Website
-Learn more about AerLock at our [official website](https://www.aerlock.co).
+Learn more about AerLock at our [official website](https://www.aerlock.co). <br />
 Also check out our [Devpost](https://devpost.com/software/aerlock).
 
 ---
