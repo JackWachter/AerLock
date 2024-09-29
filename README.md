@@ -46,6 +46,7 @@ For installation instructions, please visit our [download page](https://www.aerl
 
 ## Website
 Learn more about AerLock at our [official website](https://www.aerlock.co).
+Also check out our [Devpost](https://devpost.com/software/aerlock).
 
 ---
 
